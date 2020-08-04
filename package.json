@@ -39,12 +39,12 @@
     "path": "^0.12.7",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
-    "typescript": "~3.4.3",
+    "typescript": "~3.9.7",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.800.0",
-    "@angular/cli": "~8.0.2",
+    "@angular-devkit/build-angular": "^0.1000.5",
+    "@angular/cli": "^10.0.5",
     "@angular/compiler-cli": "~8.0.0",
     "@angular/language-service": "~8.0.0",
     "@graphql-codegen/cli": "^1.8.1",
@@ -54,18 +54,18 @@
     "codelyzer": "^5.0.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.1.0",
+    "karma": "^5.1.1",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
-    "protractor": "~5.4.0",
+    "protractor": "^7.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "typescript": "~3.9.7"
   },
   "engines": {
     "node": "12.4.0",
-    "npm": "6.11.3"
+    "npm": "6.14.7"
   }
 }
