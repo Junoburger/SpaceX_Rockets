@@ -9,7 +9,9 @@
     "lint": "ng lint",
     "heroku-postbuild": "ng build --prod",
     "e2e": "ng e2e",
-    "codegen": "gql-gen"
+    "codegen": "gql-gen",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -40,7 +42,8 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "typescript": "~3.9.7",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1000.5",
@@ -67,5 +70,6 @@
   "engines": {
     "node": "12.4.0",
     "npm": "6.14.7"
-  }
+  },
+  "snyk": true
 }
