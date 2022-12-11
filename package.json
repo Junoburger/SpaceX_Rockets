@@ -32,7 +32,7 @@
     "apollo-client": "^2.6.0",
     "apollo-link": "^1.2.11",
     "enhanced-resolve": "3.3.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^14.3.1",
     "graphql-tag": "^2.10.0",
     "hammerjs": "^2.0.8",
